@@ -3,7 +3,7 @@ Converts a paper (filetype: pdf) to an mp3.
 Project: paper2mp3  
 Converts a paper (pdf) to an mp3  
 Author:  Tiago Tamagusko <tamagusko@gmail.com>  
-Version: 0.1 (2020-09-23)  
+Version: 0.1 (2020-09-24)  
 License: MIT
 
 ## Environment
