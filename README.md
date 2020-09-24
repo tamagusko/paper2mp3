@@ -12,8 +12,9 @@ Use Python 3.7 or higher.
 Install the required packages with pip install -r requirements.txt
 
 ## Use
-> In file paper2mp3.py: edit path and raw_file on line 24-25  
-> Out: paper_audio.mp3 (in project folder)
+> In file paper2mp3.py: edit path and raw_file on line 24-25
+
+Out: paper_audio.mp3 (in project folder)
 
 ## Examples
 Source:  
