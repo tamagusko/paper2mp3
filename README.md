@@ -25,7 +25,7 @@ Out:
 
 <a id="1">[1]</a> 
 Function to convert pdf to text. 
-Retrieved from: https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html 
-<a id="2">[2]</a>  
+Retrieved from: https://pdfminersix.readthedocs.io/en/latest/tutorial/composable.html  
+<a id="2">[2]</a>
 Function to converts text to mp3.
 Retrieved from: https://github.com/kjanjua26/HearPapers
