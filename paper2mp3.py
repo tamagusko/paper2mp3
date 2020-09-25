@@ -1,8 +1,8 @@
 """
 Project: paper2mp3
-Converts a paper (pdf) to an mp3
+Converts a paper (pdf) to mp3
 Author:  Tiago Tamagusko <tamagusko@gmail.com>
-Version: 0.1 (2020-09-24)
+Version: 0.1 (2020-09-25)
 License: MIT
 
 Use: edit path and raw_file on line 24-25
@@ -43,16 +43,16 @@ def pdf2text(path):
 
 
 def to_audiobook(paper):
-    """Converts the paper to mp3
+    """Converts the text (paper) to mp3
     Based on the implementation developed by:
     https://github.com/kjanjua26/HearPapers
     """
     paper_body = []
     text_of_the_paper = pdf2text(paper)
     # use content between post-abstract and pre-references as text
-    try:
+    try:  # If Abstract 
         pre_abs, post_abs = text_of_the_paper.split("Abstract")
-    except ValueError:
+    except ValueError: # If ABSTRACT 
         pre_abs, post_abs = text_of_the_paper.split("ABSTRACT")
     pre_refs, post_refs = post_abs.split("References")
 
@@ -61,7 +61,7 @@ def to_audiobook(paper):
             paper_body.append(line)
 
     body = " ".join([x for x in paper_body])
-    # remove markers
+    # remove hyphen
     body = body.replace("- ", "")
     # removes citations and texts in parentheses
     body = re.sub("[\(\[].*?[\)\]]", "", body)
@@ -73,6 +73,6 @@ if __name__ == "__main__":
     start_timer = timer()
     print("pdf -> mp3...")
     to_audiobook(path + raw_file)
-    end_timer = timer()  # end a timmer
+    end_timer = timer()
     delay = end_timer - start_timer
     print("Elapsed time: {:0.2f}s\n----\nFile processed! :)".format(delay))
