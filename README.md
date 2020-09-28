@@ -20,7 +20,7 @@ Out: paper_audio.mp3 (in project folder)
 Source:  
 [paper.pdf](paper.pdf)  
 Out:  
-[paper_audio.mp3](paper_audio.mp3)
+[paper_audio.mp3](https://raw.githubusercontent.com/tamagusko/paper2mp3/master/paper_audio.mp3)
 
 ## References:
 
