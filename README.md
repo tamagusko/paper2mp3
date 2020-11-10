@@ -1,12 +1,10 @@
-[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/tamagusko) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)  
-
 Converts a paper (filetype: pdf) to mp3.
 
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/tamagusko) [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)  
+
 Project: paper2mp3  
-Converts a paper (pdf) to mp3  
 Author:  Tiago Tamagusko <tamagusko@gmail.com>  
 Version: 0.1 (2020-09-24)  
-License: MIT
 
 ## Environment
 Use Python 3.7 or higher.
