@@ -1,4 +1,6 @@
-# Converts a paper (pdf) to mp3
+# Converts a paper to mp3
+
+Simple implementation to convert a paper (pdfile) to mp3.
 
 ## Requeriments
 
