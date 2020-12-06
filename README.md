@@ -35,4 +35,4 @@ Retrieved from: https://github.com/kjanjua26/HearPapers
 
 ## License
 
-[MIT](LICENSE) © [tamagusko](https://tamagusko.github.io/).
+[MIT](LICENSE) (c) 2020, [Tiago Tamagusko](https://tamagusko.github.io/).
