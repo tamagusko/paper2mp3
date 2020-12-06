@@ -33,6 +33,12 @@ Retrieved from: https://pdfminersix.readthedocs.io/en/latest/tutorial/composable
 Function to convert text to mp3.
 Retrieved from: https://github.com/kjanjua26/HearPapers
 
+----
+
+Please direct bug reports and pull requests to the GitHub page. To contact me directly, send email to tamagusko@gmail.com.
+
+-- Tiago
+
 ## License
 
 [MIT](LICENSE) (c) 2020, [Tiago Tamagusko](https://tamagusko.github.io/).
