@@ -6,7 +6,7 @@ Simple implementation to convert a paper (pdfile) to mp3.
 
 Use Python 3.7 or higher.
 
-Install the required packages with pip install -r requirement.txt
+Install the required packages with pip install -r requirements.txt
 
 ## Usage
 
